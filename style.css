@@ -1,0 +1,74 @@
+body {
+/*	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	background : url(bg_s.png) no-repeat top;
+	background-attachment:fixed;
+	*/
+}
+#main {
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+.wild_group{
+	position:absolute;
+	display: inline-flex;
+}
+.wild{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	font-weight: bold;
+	width:  21px;
+	height: 21px;
+	border:  1px solid #000;
+	background-color: #ddd;
+	color:#fff;
+}
+.div_dice{
+	position:absolute;
+}
+.dice_row{
+}
+.dice{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #000;
+	width: 21px;
+	height: 21px;
+	border: 1px solid #000;
+}
+.day_tracker_group{
+	position:absolute;
+}
+.day_tracker{
+	text-align: center;
+	vertical-align: top;
+	font-weight: bold;
+	width:  15.8px;
+	height: 15.8px;
+	border:  1px solid #ddd;
+	background-color: #666;
+	opacity: 0;
+	color:#fff;
+}
+.time_tracker{
+	position:absolute;
+	display: inline-flex;
+	text-align: center;
+	vertical-align: top;
+	font-weight: bold;
+	width:  15.8px;
+	height: 15.8px;
+	border:  1px solid #000;
+	background-color: #666;
+	opacity: 0;
+	color:#fff;	
+}
+
